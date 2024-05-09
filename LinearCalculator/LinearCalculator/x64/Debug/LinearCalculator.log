@@ -1,2 +1,10 @@
-﻿  LinearCalculator.cpp
-  LinearCalculator.vcxproj -> C:\Users\there\Documents\Github\MATH204_LinearAdvancedCalculator\LinearCalculator\x64\Debug\LinearCalculator.exe
+﻿  ConsoleInteractionHandler.cpp
+  LinearCalculator.cpp
+C:\Users\Hypericats\Desktop\Nadeau\LinearAlgebraCalculator\MATH204_LinearAdvancedCalculator\LinearCalculator\ConsoleInteractionHandler.cpp(19,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Hypericats\Desktop\Nadeau\LinearAlgebraCalculator\MATH204_LinearAdvancedCalculator\LinearCalculator\ConsoleInteractionHandler.cpp(24,17): error C2059: syntax error: ')'
+  Matrixd.cpp
+C:\Users\Hypericats\Desktop\Nadeau\LinearAlgebraCalculator\MATH204_LinearAdvancedCalculator\LinearCalculator\Matrixd.cpp(29,22): error C2039: 'fmod': is not a member of 'std'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\stdexcept(19,1):
+  see declaration of 'std'
+  
+  Generating Code...
