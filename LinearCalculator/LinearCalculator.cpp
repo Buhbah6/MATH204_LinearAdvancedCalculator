@@ -3,12 +3,10 @@
 
 #include "Matrixd.h"
 
-
 int main() {
     ConsoleInteractionHandler console;
     std::vector<std::string> math = console.getMath();
-
-    Matrixd matrix(10, 10);
-    matrix.set(9, 9, 5);
-    std::cout << matrix.toString();
+    std::vector<std::string> variableOrder;
+    Matrixd* matrix = console.parseMath(math, variableOrder);
+    std::cout << matrix->toString();
 }

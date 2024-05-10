@@ -130,10 +130,12 @@
     <ClCompile Include="ConsoleInteractionHandler.cpp" />
     <ClCompile Include="LinearCalculator.cpp" />
     <ClCompile Include="Matrixd.cpp" />
+    <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleInteractionHandler.h" />
     <ClInclude Include="Matrixd.h" />
+    <ClInclude Include="Util.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

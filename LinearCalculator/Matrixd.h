@@ -1,7 +1,7 @@
 #pragma once
 #include <vector>
 #include <string>
-#include <math.h>
+#include <cmath>
 #include <stdexcept>
 
 class Matrixd {
@@ -30,4 +30,3 @@ public:
     Matrixd(int sizeX, int sizeY);
     Matrixd(int sizeX, int sizeY, std::vector<std::vector<double>> data);
 };
-
