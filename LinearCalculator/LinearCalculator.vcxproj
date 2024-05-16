@@ -128,12 +128,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ConsoleInteractionHandler.cpp" />
+    <ClCompile Include="GaussJordanHandler.cpp" />
     <ClCompile Include="LinearCalculator.cpp" />
     <ClCompile Include="Matrixd.cpp" />
     <ClCompile Include="Util.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ConsoleInteractionHandler.h" />
+    <ClInclude Include="GaussJordanHandler.h" />
     <ClInclude Include="Matrixd.h" />
     <ClInclude Include="Util.h" />
   </ItemGroup>

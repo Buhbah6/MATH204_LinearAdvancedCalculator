@@ -75,5 +75,33 @@ void Matrixd::setColumn(int x, std::vector<double>& value) {
 }
 
 void Matrixd::set(int x, int y, const double value) {
-    rawMatrix.at(x).at(y) = value;
+    rawMatrix.at(y).at(x) = value;
+}
+
+void Matrixd::mult(int row, double coef) {
+    std::vector<double> rowV = this->getRow(row);
+    for (int i = 0; i < rowV.size(); i++) {
+        this->set(i, row, rowV[i] * coef);
+    }
+}
+
+void Matrixd::swapRows(int row1, int row2) {
+    std::vector<double> rowV1 = this->getRow(row1);
+    std::vector<double> rowV2 = this->getRow(row2);
+    for (int i = 0; i < rowV1.size(); i++) {
+        this->set(i, row2, rowV1[i]);
+    }
+    for (int i = 0; i < rowV2.size(); i++) {
+        this->set(i, row1, rowV2[i]);
+    }
+}
+
+void Matrixd::multAddRow(int rowToMultiply, int rowToAddTo, double coef) {
+    std::vector<double> rowV1 = this->getRow(rowToMultiply);
+    std::vector<double> rowV2 = this->getRow(rowToAddTo);
+    for (int i = 0; i < rowV1.size(); i++) {
+        std::cout << i << std::endl;
+        std::cout << "adding " << rowV1[i] * coef << std::endl;
+        this->set(i, rowToAddTo, rowV1[i] * coef + rowV2[i]);
+    }
 }

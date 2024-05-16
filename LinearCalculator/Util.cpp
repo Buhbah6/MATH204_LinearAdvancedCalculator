@@ -1,3 +1,7 @@
+//
+// Created by Hypericats on 5/9/2024.
+//
+
 #include "Util.h"
 
 
@@ -26,4 +30,11 @@ int Util::indexOf(std::string str, std::vector<std::string> v) {
         if (v.at(i) == str) return i;
     }
     return -1;
+}
+
+//uses endl because meant for debug not for prod
+void Util::printVec(std::vector<std::string> vec) {
+    for (std::string str : vec) {
+        std::cout << str << std::endl;
+    }
 }

@@ -1,6 +1,13 @@
-#pragma once
+//
+// Created by Hypericats on 5/9/2024.
+//
+
+#ifndef CLION_MATRIXD_H
+#define CLION_MATRIXD_H
+
 #include <vector>
 #include <string>
+#include <iostream>
 #include <cmath>
 #include <stdexcept>
 
@@ -29,4 +36,12 @@ public:
 
     Matrixd(int sizeX, int sizeY);
     Matrixd(int sizeX, int sizeY, std::vector<std::vector<double>> data);
+
+    //gaus jordan thingies
+    void swapRows(int row1, int row2);
+    void multAddRow(int rowToMultiply, int rowToAddTo, double coef);
+    void mult(int row, double coef);
 };
+
+
+#endif //CLION_MATRIXD_H

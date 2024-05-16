@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\LinearCalculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:LinearCalculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Matrixd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:Matrixd.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -11,24 +15,28 @@
       "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:Matrixd.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\ConsoleInteractionHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:ConsoleInteractionHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:Util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\ConsoleInteractionHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:ConsoleInteractionHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\GaussJordanHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:GaussJordanHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:Util.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:Util.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\GaussJordanHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:GaussJordanHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\LinearCalculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:LinearCalculator.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\ConsoleInteractionHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:ConsoleInteractionHandler.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\ConsoleInteractionHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{36351DFE-F5E4-442B-9BBA-CFCBE050DE9F}|LinearCalculator.vcxproj|solutionrelative:ConsoleInteractionHandler.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,95 +46,121 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "GaussJordanHandler.cpp",
+              "DocumentMoniker": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\GaussJordanHandler.cpp",
+              "RelativeDocumentMoniker": "GaussJordanHandler.cpp",
+              "ToolTip": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\GaussJordanHandler.cpp",
+              "RelativeToolTip": "GaussJordanHandler.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-16T19:53:58.682Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GaussJordanHandler.h",
+              "DocumentMoniker": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\GaussJordanHandler.h",
+              "RelativeDocumentMoniker": "GaussJordanHandler.h",
+              "ToolTip": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\GaussJordanHandler.h",
+              "RelativeToolTip": "GaussJordanHandler.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-16T19:53:44.216Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Util.cpp",
               "DocumentMoniker": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Util.cpp",
               "RelativeDocumentMoniker": "Util.cpp",
               "ToolTip": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Util.cpp",
               "RelativeToolTip": "Util.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-10T03:00:37.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Util.h",
               "DocumentMoniker": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Util.h",
               "RelativeDocumentMoniker": "Util.h",
               "ToolTip": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Util.h",
               "RelativeToolTip": "Util.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-10T02:58:41.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "ConsoleInteractionHandler.cpp",
               "DocumentMoniker": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\ConsoleInteractionHandler.cpp",
               "RelativeDocumentMoniker": "ConsoleInteractionHandler.cpp",
               "ToolTip": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\ConsoleInteractionHandler.cpp",
               "RelativeToolTip": "ConsoleInteractionHandler.cpp",
-              "ViewState": "AQIAAAIAAAAAAAAAAAD4vxYAAAATAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-09T19:58:25.233Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "ConsoleInteractionHandler.h",
               "DocumentMoniker": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\ConsoleInteractionHandler.h",
               "RelativeDocumentMoniker": "ConsoleInteractionHandler.h",
               "ToolTip": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\ConsoleInteractionHandler.h",
               "RelativeToolTip": "ConsoleInteractionHandler.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-09T19:58:14.654Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Matrixd.cpp",
               "DocumentMoniker": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Matrixd.cpp",
               "RelativeDocumentMoniker": "Matrixd.cpp",
               "ToolTip": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Matrixd.cpp",
               "RelativeToolTip": "Matrixd.cpp",
-              "ViewState": "AQIAAAgAAAAAAAAAAAD4vyQAAAAPAAAA",
+              "ViewState": "AQIAABgAAAAAAAAAAAAWwC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-09T19:56:54.633Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Matrixd.h",
               "DocumentMoniker": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Matrixd.h",
               "RelativeDocumentMoniker": "Matrixd.h",
               "ToolTip": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\Matrixd.h",
               "RelativeToolTip": "Matrixd.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAmwC8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-09T19:56:49.752Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 0,
               "Title": "LinearCalculator.cpp",
               "DocumentMoniker": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\LinearCalculator.cpp",
               "RelativeDocumentMoniker": "LinearCalculator.cpp",
               "ToolTip": "C:\\Users\\Hypericats\\Desktop\\Nadeau\\LinearAlgebraCalculator\\MATH204_LinearAdvancedCalculator\\LinearCalculator\\LinearCalculator.cpp",
               "RelativeToolTip": "LinearCalculator.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-09T17:47:22.129Z",
               "EditorCaption": ""
