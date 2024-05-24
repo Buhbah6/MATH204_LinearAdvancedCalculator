@@ -5,7 +5,7 @@
 #include "Matrixd.h"
 
 double Matrixd::getAt(int x, int y) {
-    return this->rawMatrix.at(x).at(y);
+    return this->rawMatrix.at(y).at(x);
 }
 
 std::vector<double> Matrixd::getRow(int y) {
@@ -22,14 +22,15 @@ std::vector<double> Matrixd::getColumn(int x) {
 
 std::string Matrixd::toString() {
     std::string str;
+    //it's inversed ik, it's like this I dont feel like fixing it. It works just as well soooo im not touching it.
     for (int x = 0; x < getColumnSize(); x++) {
         for (int y = 0; y < getRowSize(); y++) {
-            double d = getAt(x, y);
+            double d = getAt(y, x);
             //just get the integer if it has no decimals
             if (std::fmod(d, 1) == 0.0)
                 str.append(std::to_string((int)d));
             else
-                str.append(std::to_string(getAt(x, y)));
+                str.append(std::to_string(getAt(y, x)));
             str.append(" ");
         }
         str.append("\n");
@@ -100,8 +101,8 @@ void Matrixd::multAddRow(int rowToMultiply, int rowToAddTo, double coef) {
     std::vector<double> rowV1 = this->getRow(rowToMultiply);
     std::vector<double> rowV2 = this->getRow(rowToAddTo);
     for (int i = 0; i < rowV1.size(); i++) {
-        std::cout << i << std::endl;
-        std::cout << "adding " << rowV1[i] * coef << std::endl;
+        //std::cout << i << std::endl;
+        //std::cout << "adding " << rowV1[i] * coef << std::endl;
         this->set(i, rowToAddTo, rowV1[i] * coef + rowV2[i]);
     }
 }

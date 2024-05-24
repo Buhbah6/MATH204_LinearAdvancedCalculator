@@ -1,0 +1,16 @@
+﻿  ConsoleInteractionHandler.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+C:\Users\Hypericats\Desktop\Nadeau\LinearAlgebraCalculator\MATH204_LinearAdvancedCalculator\LinearCalculator\ConsoleInteractionHandler.cpp(29,20): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Hypericats\Desktop\Nadeau\LinearAlgebraCalculator\MATH204_LinearAdvancedCalculator\LinearCalculator\ConsoleInteractionHandler.cpp(86,28): warning C4101: 'ignore': unreferenced local variable
+  REF.cpp
+  LinearCalculator.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\filesystem(12): warning STL4038: The contents of <filesystem> are available only with C++17 or later.
+  Matrixd.cpp
+  RREF.cpp
+  SystemResult.cpp
+  Util.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 517 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  LinearCalculator.vcxproj -> C:\Users\Hypericats\Desktop\Nadeau\LinearAlgebraCalculator\MATH204_LinearAdvancedCalculator\LinearCalculator\x64\Release\LinearCalculator.exe

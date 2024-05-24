@@ -20,8 +20,8 @@ private:
 
     //first x = 0 same for y
     std::vector<std::vector<double>> rawMatrix;
-    int rowSize;
-    int columnSize;
+    int rowSize = 0;
+    int columnSize = 0;
 
 public:
     double getAt(int x, int y);

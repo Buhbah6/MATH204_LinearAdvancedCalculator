@@ -2,7 +2,9 @@
 #include "ConsoleInteractionHandler.h"
 
 #include "Matrixd.h"
-#include "GaussJordanHandler.h"
+#include "REF.h"
+#include "RREF.h"
+#include "SystemResult.h"
 
 int main() {
     ConsoleInteractionHandler console;
@@ -18,8 +20,24 @@ int main() {
     Matrixd* matrix = console.parseMath(math, variableOrder);
     std::cout << matrix->toString();
 
-    GaussJordanHandler gauss(*matrix);
-    gauss.solve();
+    //transform matrix to row echelon form
+    REF ref(*matrix);
+    ref.solve();
+
+    std::cout << std::endl;
+    std::cout << "DONE REF!" << std::endl;
+    std::cout << std::endl;
+
+    //transform matrix to reduced row echelon form
+    RREF rref(*matrix);
+    rref.solve();
+    std::cout << "DONE RREF!" << std::endl;
+    std::cout << std::endl;
+
+    SystemResult result(variableOrder, *matrix);
+    std::cout << result.toString();
+
+
 
 
 }

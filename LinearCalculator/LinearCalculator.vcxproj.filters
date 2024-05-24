@@ -27,7 +27,13 @@
     <ClCompile Include="Util.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GaussJordanHandler.cpp">
+    <ClCompile Include="REF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RREF.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemResult.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -41,7 +47,13 @@
     <ClInclude Include="Util.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="GaussJordanHandler.h">
+    <ClInclude Include="REF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RREF.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemResult.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
