@@ -36,10 +36,13 @@ int main() {
 
     SystemResult result(variableOrder, *matrix);
     std::cout << result.toString();
+    delete matrix;
 
 
 
 
 }
 //todo
+//spaces in input file also do tomfoolery
+//if position in matrix not variable just set it to 0
 //console input doesn't work with space because std::cin

@@ -17,6 +17,7 @@ void REF::doColumn(int x) {
 }
 
 void REF::doPos(int x, int y) {
+    if (matrix.isNoSolution()) return;
     std::cout << "Doing pos " << x << " " << y << std::endl;
     bool isLeading = y == x;
     double value = matrix.getAt(x, y);

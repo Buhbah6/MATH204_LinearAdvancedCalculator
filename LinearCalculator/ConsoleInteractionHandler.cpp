@@ -41,7 +41,8 @@ Matrixd* ConsoleInteractionHandler::parseMath(std::vector<std::string> math, std
         //std::cout << results.at(1) << std::endl;
 
         //add + for every - so we can split at every +
-        for (int i = 0; i < str.size(); i++) {
+        //start i=1 because if the first is a negative we dont want to add a +
+        for (int i = 1; i < str.size(); i++) {
             if (str[i] == '-') {
                 str.insert(i, "+");
                 i++;
@@ -84,7 +85,13 @@ void ConsoleInteractionHandler::parseComponent(std::string& variable, double& co
         coef = std::stod(component);
     }
     catch (std::exception& ignore) {
-        //this means that there was no coef therfore coef should be 1 which it already is as that is the initial value
+        for (char c : component) {
+            if (c == '-') {
+                coef = -1;
+                return;
+            }
+        }
+        //this means that there was no coef and it was positive therefore coef should be 1 which it already is as that is the initial value
     }
 }
 

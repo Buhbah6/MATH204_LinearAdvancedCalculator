@@ -106,3 +106,12 @@ void Matrixd::multAddRow(int rowToMultiply, int rowToAddTo, double coef) {
         this->set(i, rowToAddTo, rowV1[i] * coef + rowV2[i]);
     }
 }
+
+bool Matrixd::isNoSolution() {
+    std::vector<double> vector = getRow(columnSize - 1);
+    for (int i = 0; i < vector.size() - 1; i++) {
+        if (vector.at(i) != 0) return false;
+    }
+    if (vector.at(vector.size() - 1) == 0) return false;
+    return true;
+}

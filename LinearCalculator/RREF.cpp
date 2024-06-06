@@ -17,6 +17,7 @@ void RREF::doColumn(int x) {
 }
 
 void RREF::doPos(int x, int y) {
+    if (matrix.isNoSolution()) return;
     std::cout << "Doing pos " << x << " " << y << std::endl;
     //area is already covered by REF
     if (y >= x) std::cout << "error THIS SHOULD NOT OCCUR VERY BAD THINGS MIGHT HAPPEN" << std::endl;

@@ -18,6 +18,8 @@ public:
     std::string getVar(int index);
     double getVarVal(std::string var);
     double getVarIndexVal(int index);
+    bool isInfinite();
+    bool isNoSolution();
     std::string toString();
 private:
     std::vector<std::string>& variables;

@@ -24,6 +24,12 @@ SystemResult::SystemResult(std::vector<std::string>& variableOrder, Matrixd& mat
 
 std::string SystemResult::toString() {
     std::string str;
+
+    if (isInfinite())
+        return "There are infinitely many solutions!";
+    if (isNoSolution())
+        return "There are no possible solutions!";
+
     for (int i = 0; i < variables.size(); i++) {
         str.append(variables.at(i));
         str.append(" = ");
@@ -33,5 +39,16 @@ std::string SystemResult::toString() {
         str.append("\n");
     }
     return str;
+}
+
+bool SystemResult::isInfinite() {
+    for (double d : results) {
+        if (_isnan(d)) return true;
+    }
+    return false;
+}
+
+bool SystemResult::isNoSolution() {
+    return matrix.isNoSolution();
 }
 

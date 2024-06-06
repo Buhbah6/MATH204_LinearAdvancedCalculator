@@ -33,6 +33,7 @@ public:
     void setRow(int y, std::vector<double>& value);
     void setColumn(int x, std::vector<double>& value);
     void set(int x, int y, const double value);
+    bool isNoSolution();
 
     Matrixd(int sizeX, int sizeY);
     Matrixd(int sizeX, int sizeY, std::vector<std::vector<double>> data);
